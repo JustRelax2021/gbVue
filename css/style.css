@@ -169,3 +169,12 @@ img {
     border: none;
     border-bottom: 2px solid #fafafa;
 }
+
+.error-message {
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+    width:40%;
+    padding: 20px;
+    margin: 20% auto;
+}
