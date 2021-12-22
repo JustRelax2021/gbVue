@@ -82,9 +82,7 @@ img {
     width: 300px;
 }
 
-.invisible{
-    display: none;
-}
+
 .cart-block:before{
     content: '';
     width: 0;
@@ -115,6 +113,12 @@ img {
 .cart-item {
     display: flex;
     justify-content: space-between;
+}
+
+.cart-text{
+    font-size: 15px;
+    color: black;
+    display: flex;
 }
 .cart-item:not(:last-child){
     margin-bottom: 20px;
